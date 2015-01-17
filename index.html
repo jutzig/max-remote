@@ -4,11 +4,11 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Max-remote : Site for the MAX! Remote Android App ">
+    <meta name="description" content="MAX! Remote : Alternative App for controlling your MAX! Cube ">
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Max-remote</title>
+    <title>MAX! Remote</title>
   </head>
 
   <body>
@@ -18,8 +18,8 @@
         <header class="inner">
           <a id="forkme_banner" href="https://github.com/jutzig/max-remote">View on GitHub</a>
 
-          <h1 id="project_title">Max-remote</h1>
-          <h2 id="project_tagline">Site for the MAX! Remote Android App </h2>
+          <h1 id="project_title">MAX! Remote</h1>
+          <h2 id="project_tagline">Alternative App for controlling your MAX! Cube </h2>
 
             <section id="downloads">
               <a class="zip_download_link" href="https://github.com/jutzig/max-remote/zipball/master">Download this project as a .zip file</a>
@@ -32,9 +32,30 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<a id="max-remote" class="anchor" href="#max-remote" aria-hidden="true"><span class="octicon octicon-link"></span></a>MAX! Remote</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p>MAX! Remote is an Android App that allows controlling the MAX! heating via direct network connection or VPN tunnel.</p>
+
+<h3>
+<a id="faq" class="anchor" href="#faq" aria-hidden="true"><span class="octicon octicon-link"></span></a>FAQ</h3>
+
+<h4>
+<a id="why-is-the-current-temperature-not-shown" class="anchor" href="#why-is-the-current-temperature-not-shown" aria-hidden="true"><span class="octicon octicon-link"></span></a>Why is the current temperature not shown?</h4>
+
+<p>If a room does not contain a wall thermostat the current temperature is retrieved from the heating thermostats. Unfortunately this method is not as reliable as using a wall thermostat and the current temperature will not always be available due to technical limitations of the MAX! system.</p>
+
+<h4>
+<a id="can-i-use-max-remote-for-adjusting-my-heating-while-i-am-not-at-home" class="anchor" href="#can-i-use-max-remote-for-adjusting-my-heating-while-i-am-not-at-home" aria-hidden="true"><span class="octicon octicon-link"></span></a>Can I use MAX! Remote for adjusting my heating while I am not at home?</h4>
+
+<p>Yes, you can. But a direct connection to the Cube is required so you need to configure a VPN tunnel in your router and activate the tunnel in your phone.
+Portforwarding is also possible but strongly discouraged because it will essentially allow everybody to access your MAX! Cube from a remote location</p>
+
+<h4>
+<a id="max-remote-fails-to-load-the-room-information-what-can-i-do" class="anchor" href="#max-remote-fails-to-load-the-room-information-what-can-i-do" aria-hidden="true"><span class="octicon octicon-link"></span></a>MAX! Remote fails to load the room information, what can I do?</h4>
+
+<p>The first thing you should check is that you entered the correct IP address to access the cube. You can switch back to the respective screen by selecting the <code>connect to cube</code> menu.
+Additionally you should check that the wireless network is activated on your phone and that the cube is properly connected in the network.
+If everything is in order you also need to ensure that all other applications that access the Cube directly are terminated because the Cube allows only one connection at a time.</p>
 
 <pre><code>$ cd your_repo_root/repo_name
 $ git fetch origin
@@ -68,7 +89,7 @@ $ git checkout gh-pages
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">Max-remote maintained by <a href="https://github.com/jutzig">jutzig</a></p>
+        <p class="copyright">MAX! Remote maintained by <a href="https://github.com/jutzig">jutzig</a></p>
         <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
