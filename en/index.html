@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="MAX! Remote : Alternative App for controlling your MAX! Cube ">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="../stylesheets/stylesheet.css">
+
+    <title>MAX! Remote</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/jutzig/max-remote">View on GitHub</a>
+
+          <h1 id="project_title">MAX! Remote</h1>
+          <h2 id="project_tagline">Alternative App for controlling your MAX! Cube </h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a id="max-remote" class="anchor" href="#max-remote" aria-hidden="true"><span class="octicon octicon-link"></span></a>MAX! Remote</h3>
+
+<p><a href="https://play.google.com/store/apps/details?id=de.jutzig.max.remote.activity">MAX! Remote</a> is an Android App that allows controlling the MAX! heating system via direct network connection or VPN tunnel.</p>
+
+<h3>
+<a id="faq" class="anchor" href="#faq" aria-hidden="true"><span class="octicon octicon-link"></span></a>FAQ</h3>
+
+<h4>
+<a id="why-is-the-current-temperature-not-shown" class="anchor" href="#why-is-the-current-temperature-not-shown" aria-hidden="true"><span class="octicon octicon-link"></span></a>Why is the current temperature not shown?</h4>
+
+<p>If a room does not contain a wall thermostat the current temperature is retrieved from the heating thermostats. Unfortunately this method is not as reliable as using a wall thermostat.
+The heating thermostats will only send the temperature when the valve position changes, or the mode is changed (e.g. AUTO, MANUAL,...).
+So the cube might not know the current temperature in a room if the heating valve has not moved in a while and then the App cannot display the temperature either.</p>
+
+<h4>
+<a id="temp-does-not-change" class="anchor" href="#temp-does-not-change" aria-hidden="true"><span class="octicon octicon-link"></span></a>I get an error when I try to change the temperature in a room, what is the problem?</h4>
+
+<p>Unfortunately the cube seems to have some stability issues. If you see the message "<code>The MAX! Cube did not confirm the new setting in time</code>" every time you try to change the temperature in a room then your
+Cube is probably stuck. The best way to fix this, is to disconnect the Cube from power, re-connect it and wait a few minutes. Once the Cube is re-initialized, the App should be able to change the temperature again.
+</p>
+<p>
+If this problem happens very often for you, it might be a good idea to perform to power off the cube once a day. An easy way to do this is, is an outlet with timer for example.
+</p>
+
+<h4>
+<a id="can-i-use-max-remote-for-adjusting-my-heating-while-i-am-not-at-home" class="anchor" href="#can-i-use-max-remote-for-adjusting-my-heating-while-i-am-not-at-home" aria-hidden="true"><span class="octicon octicon-link"></span></a>Can I use MAX! Remote for adjusting my heating while I am not at home?</h4>
+
+<p>Yes, you can. But a direct connection to the Cube is required so you need to configure a VPN tunnel in your router and activate the tunnel in your phone.
+Port Forwarding is also possible but strongly discouraged because it will essentially allow everybody to access your MAX! Cube from a remote location.</p>
+<p>
+How to set up VPN depends on your router model. Here is an example for Fritz!Box <a href="http://avm.de/service/vpn/tipps-tricks/vpn-verbindung-mit-android-geraet-zur-fritzbox-client-lan-kopplung/">VPN</a>
+</p>
+
+<h4>
+<a id="heating-profiles" class="anchor" href="#heating-profiles" aria-hidden="true"><span class="octicon octicon-link"></span></a>How do heating profiles work?</h4>
+
+<p>Heating Profiles are a way to quickly switch between several heating programs. This is useful if you have for example different work shifts or want to use different settings when you are on holiday.</p>
+<p>To create a heating profile, first program the cube to a heating program of your liking. Once that is done, press refresh in the app and select <code>Heating Profiles</code>.
+You can now store the current program under a name of your choosing. The same screen is used to delete or activate existing heating profiled.
+<br/>Hint: the currently active heating profile is highlighted in blue</p>
+<p>
+
+<h4>
+<a id="heating-profiles-wrong-temp" class="anchor" href="#heating-profiles-wrong-temp" aria-hidden="true"><span class="octicon octicon-link"></span></a>I activated a heating profile, but the rooms are not set to the right temperature, what can I do?</h4>
+
+<p>The MAX! system does not always seem to apply the correct target temperature after changing the weekly program. If you are facing this problem, the easiest fix is usually to press the <code>Auto</code> button in the App to set all
+rooms to the temperature defined in the program.</p>
+<p>
+
+<h4>
+<a id="max-remote-fails-to-load-the-room-information-what-can-i-do" class="anchor" href="#max-remote-fails-to-load-the-room-information-what-can-i-do" aria-hidden="true"><span class="octicon octicon-link"></span></a>MAX! Remote fails to load the room information, what can I do?</h4>
+
+<p>The first thing you should check is that you entered the correct IP address to access the cube. You can switch back to the respective screen by selecting the <code>connect to cube</code> menu.
+Additionally you should check that the wireless network is activated on your phone and that the cube is properly connected in the network.
+If everything is in order you also need to ensure that all other applications that access the Cube directly are terminated because the Cube allows only one connection at a time.</p>
+
+<h4>
+<a id="other-systems" class="anchor" href="#other-systems" aria-hidden="true"><span class="octicon octicon-link"></span></a>Will there be a version for Windows or IOS?</h4>
+
+<p>No, sorry</p>
+<p>
+
+<h3>
+<a id="todos" class="anchor" href="#todos" aria-hidden="true"><span class="octicon octicon-link"></span></a>Future Enhancements</h3>
+
+<p>This is a list of enhancements/changes that I would like to add in the future but have not yet found the time to do</p>
+
+<ul>
+<li>provide a historic chart that includes actual, desired and outside temperature as well as valve positions</li>
+<li>integrate into the <code>Tasker</code> and <code>Lama</code> Apps to enable more advanced use-cases</li>
+<li>add google drive support to sync heating profiles</li>
+<li>improve layout for tablets</li>
+<li>show optional notification on low battery or connectivity problem</li>
+<li>support vacation mode</li>
+<li>support time limited temperature changes</li>
+<li>Additonal device configurations
+<ul>
+<li>set boost duration and valve position</li>
+<li>set wall thermostat display mode</li>
+<li>adjust device offset</li>
+<li>set cube time</li>
+</ul>
+</li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">MAX! Remote maintained by <a href="https://github.com/jutzig">jutzig</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>

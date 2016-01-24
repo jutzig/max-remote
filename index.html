@@ -19,12 +19,12 @@
           <a id="forkme_banner" href="https://github.com/jutzig/max-remote">View on GitHub</a>
 
           <h1 id="project_title">MAX! Remote</h1>
-          <h2 id="project_tagline">Alternative App for controlling your MAX! Cube </h2>
+          <h2 id="project_tagline">Alternative App zur Steuerung des MAX! Cube </h2>
 
             <section id="downloads">
               <!--<a class="zip_download_link" href="https://github.com/jutzig/max-remote/zipball/master">Download this project as a .zip file</a>
               <a class="tar_download_link" href="https://github.com/jutzig/max-remote/tarball/master">Download this project as a tar.gz file</a>-->
-              <a class="English" href="./en">English Version</a>
+              <a class="tar_download_link" href="./en/index.html">English Version</a>
             </section>
         </header>
     </div>
@@ -35,57 +35,87 @@
         <h3>
 <a id="max-remote" class="anchor" href="#max-remote" aria-hidden="true"><span class="octicon octicon-link"></span></a>MAX! Remote</h3>
 
-<p><a href="https://play.google.com/store/apps/details?id=de.jutzig.max.remote.activity">MAX! Remote</a> is an Android App that allows controlling the MAX! heating system via direct network connection or VPN tunnel.</p>
+<p><a href="https://play.google.com/store/apps/details?id=de.jutzig.max.remote.activity">MAX! Remote</a> ist eine Android App zur Steuerung des MAX! Heizungs Systems mittels einer direkten Verbindung oder eines VPN Tunnels.</p>
 
 <h3>
 <a id="faq" class="anchor" href="#faq" aria-hidden="true"><span class="octicon octicon-link"></span></a>FAQ</h3>
 
 <h4>
-<a id="why-is-the-current-temperature-not-shown" class="anchor" href="#why-is-the-current-temperature-not-shown" aria-hidden="true"><span class="octicon octicon-link"></span></a>Why is the current temperature not shown?</h4>
+<a id="why-is-the-current-temperature-not-shown" class="anchor" href="#why-is-the-current-temperature-not-shown" aria-hidden="true"><span class="octicon octicon-link"></span></a>Warum wird die Raumtemperatur nicht angezeigt?</h4>
 
-<p>If a room does not contain a wall thermostat the current temperature is retrieved from the heating thermostats. Unfortunately this method is not as reliable as using a wall thermostat and the current temperature will not always be available due to technical limitations of the MAX! system.</p>
-
-<h4>
-<a id="can-i-use-max-remote-for-adjusting-my-heating-while-i-am-not-at-home" class="anchor" href="#can-i-use-max-remote-for-adjusting-my-heating-while-i-am-not-at-home" aria-hidden="true"><span class="octicon octicon-link"></span></a>Can I use MAX! Remote for adjusting my heating while I am not at home?</h4>
-
-<p>Yes, you can. But a direct connection to the Cube is required so you need to configure a VPN tunnel in your router and activate the tunnel in your phone.
-Portforwarding is also possible but strongly discouraged because it will essentially allow everybody to access your MAX! Cube from a remote location</p>
+<p>Falls ein Raum nicht über ein Wandthermostat verfügt wird die Temperatur aus den Heizungsthermostaten ausgelesen. Leider ist diese Methode weniger zuverlässig als ein Wandthermostat.
+Das Heizungsthermostat sendet die Temperatur nur wenn sich die Ventilstellung oder der Modus des Raums (z.B. AUTO, MANUAL,...) ändert.
+Falls sich beispielsweise die Ventilsteuerung des Thermostats über längere Zeit nicht verändert hat kennt der Cube die Temperatur nicht und die App kann den Wert nicht anzeigen.</p>
 
 <h4>
-<a id="max-remote-fails-to-load-the-room-information-what-can-i-do" class="anchor" href="#max-remote-fails-to-load-the-room-information-what-can-i-do" aria-hidden="true"><span class="octicon octicon-link"></span></a>MAX! Remote fails to load the room information, what can I do?</h4>
+<a id="temp-does-not-change" class="anchor" href="#temp-does-not-change" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ich bekomme eine Fehler wenn ich versuche die Temperatur eines Raumes zu verändern. Was ist das Problem?</h4>
 
-<p>The first thing you should check is that you entered the correct IP address to access the cube. You can switch back to the respective screen by selecting the <code>connect to cube</code> menu.
-Additionally you should check that the wireless network is activated on your phone and that the cube is properly connected in the network.
-If everything is in order you also need to ensure that all other applications that access the Cube directly are terminated because the Cube allows only one connection at a time.</p>
+<p>Leider hat der Cube ein Stabilitätsproblem. Falls Sie jedesmal wenn Sie die Temperatur ändern möchten die Meldung "<code>Der MAX! Cube hat die neuen Einstellungen nicht rechtzeitig bestätigt</code>" sehen,
+denn steckt Ihr Cube vermutlich fest. Die einfachste Möglichkeit das Problem zu beheben, besteht darin den Cube kurz vom Strom zu trennen, wieder zu starten und ein paar Minuten zu warten.
+Sobald der Cube wieder initialisiert ist, sollten Sie die Temperatur wieder mit der App ändern können. 
+</p>
+<p>
+Sollten Sie häufig von dem Problem betroffen sein ist es empfehlenswert den Cube regelmäßig vom Strom zu trennen. Eine einfache Lösung dafür ist z.B. eine Steckdose mit Zeitschaltuhr.
+</p>
+
+<h4>
+<a id="can-i-use-max-remote-for-adjusting-my-heating-while-i-am-not-at-home" class="anchor" href="#can-i-use-max-remote-for-adjusting-my-heating-while-i-am-not-at-home" aria-hidden="true"><span class="octicon octicon-link"></span></a>Kann ich MAX! Remote auch unterwegs nutzen?</h4>
+
+<p>Ja, können Sie. Allerdings wird eine direkte Netzwerkverbindung zum Cube benötigt. Um das von unterwegs zu ermöglichen benötigen Sie eine VPN Verbindung die Sie zunächst in Ihrem Router und Handy einrichten müssen.
+Auch Port Forwarding ist möglich, allerdings muss davon dringend abgeraten werden, da es fremden Personen vollen Zugriff auf Ihre Heizung ermöglicht.</p>
+<p>
+Wie VPN eingerichtet werden muss hängt von Ihrem Router Modell ab. Hier finden Sie ein Beispiel für Fritz!Box <a href="http://avm.de/service/vpn/tipps-tricks/vpn-verbindung-mit-android-geraet-zur-fritzbox-client-lan-kopplung/">VPN</a>
+</p>
+
+<h4>
+<a id="heating-profiles" class="anchor" href="#heating-profiles" aria-hidden="true"><span class="octicon octicon-link"></span></a>Wie funktionieren Heizprofile?</h4>
+
+<p>Heizprofile sind eine Möglichkeit um schnell zwischen verschiedenen Wochenprogrammen zu wechseln.
+Das ist beispielsweise nützlich, wenn Sie in wechselnden Schichten arbeiten, oder ein anderes Wochenprogramm verwenden wollen wenn Sie Urlaub haben.</p>
+<p>Um ein Heizprofil zu erstellen sollten Sie zunächst das Wochenprogramm nach Ihren Wünschen einstellen. Sobald Sie zufrieden sind, aktualisieren Sie die App und wählen <code>Heizprofile</code>.
+Jetzt können Sie das aktuelle Programm unter einem Namen Ihrer wahl abspeichern. Der gleiche Bildschirm wird verwendet um bestehende Heizprofile zu löschen oder zu aktivieren.
+<br/>Tipp: das derzeit aktive Heizprofil wird in Blau dargestellt</p>
+<p>
+
+<h4>
+<a id="heating-profiles-wrong-temp" class="anchor" href="#heating-profiles-wrong-temp" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ich habe ein Heizprofil aktiviert aber die Räume zeigen die falsche Zieltemperatur, was kann ich tun?</h4>
+
+<p>Das MAX! System setzt nicht immer die richtie Zieltemperatur nachdem Sie das Wochenprogramm geändert haben. Die einfachste Lösung besteht darin in der App auf <code>Auto</code> zu drücken.
+Die App setzt dann die korrekte Zieltemperatur aus dem Wochenprogramm für alle Räume.</p>
+<p>
+
+<h4>
+<a id="max-remote-fails-to-load-the-room-information-what-can-i-do" class="anchor" href="#max-remote-fails-to-load-the-room-information-what-can-i-do" aria-hidden="true"><span class="octicon octicon-link"></span></a>MAX! Remote kann die Rauminformationen nicht laden, was kann ich tun?</h4>
+
+<p>Zunächst sollten Sie prüfen ob die richtige IP Adresse eingestellt ist. Sie können zurück zu den Verbindungseinstellungen in dem Sie <code>zum Cube verbinden</code> im Menü wählen.
+Zusätzlich sollten Sie prüfen ob sie WLAN aktiviert haben und ob der Cube korrekt mit dem Netzwerk verbunden ist.
+Falls alles korrekt ist, stellen Sie sicher, dass alle anderen Anwendung die sich mit dem Cube verbinden geschlossen sind, da der Cube immer nur eine Verbindung gleichzeitig erlaubt.</p>
+
+<h4>
+<a id="other-systems" class="anchor" href="#other-systems" aria-hidden="true"><span class="octicon octicon-link"></span></a>Wird es eine Version für Windows oder IOS geben?</h4>
+
+<p>Leider nein</p>
+<p>
 
 <h3>
-<a id="todos" class="anchor" href="#todos" aria-hidden="true"><span class="octicon octicon-link"></span></a>TODOs</h3>
+<a id="todos" class="anchor" href="#todos" aria-hidden="true"><span class="octicon octicon-link"></span></a>Future Enhancements</h3>
 
-<p>This is a list of enhancements/changes that are planned to develop or have been requested by users.
-The list is in no particular order</p>
-
-<ul>
-<li>Show which heating profile is currently active</li>
-<li>Show when the data was last updated from the cube</li>
-<li>provide a historic chart that includes actual, desired and outside temperature as well as valve positions</li>
-<li>integrate into the <code>Tasker</code> App to enable more advanced use-cases</li>
-<li>Provide an in-app-purchase option to get rid of the ad</li>
-<li>When using the global <code>Auto</code> button all rooms should be set to the temperature defined in the week profile</li>
-<li>add google drive support to sync heating profiles</li>
-<li>improve layout for tablets</li>
-<li>when copying a day in the week profile there should be an <code>All days</code> option</li>
-<li>show optional notification on low battery or connectivity problem</li>
-<li>support vacation mode</li>
-<li>support time limited temperature changes</li>
-<li>provide buttons to set to <code>eco</code> or <code>comfort</code> temperature in a single room</li>
-<li>Add support for external temperature sensors</li>
-<li>Additonal device configurations
+<p>Dies ist eine Liste mit zukünftigen Erweiterungen die ich gerne einbauen würde, für die mir bisher noch die Zeit fehlt</p>
 
 <ul>
-<li>set boost duration and valve position</li>
-<li>set wall thermostat display mode</li>
-<li>adjust device offset</li>
-<li>set cube time</li>
+<li>Diagramme mit Verlauf der Temperatur und Ventilstellung</li>
+<li>Integration in <code>Tasker</code> und <code>Lama</code> Apps</li>
+<li>Google Drive unterstützung zum Synchronisieren der Heizprofile</li>
+<li>Verbessertes Layout für Tablets</li>
+<li>Optionally Benachrichtigungen bei schwacher Batterie, Verbindungsproblemen,..</li>
+<li>Unterstützung für Urlaubsmodus</li>
+<li>Zeitlich begrenzte Temperaturänderungen</li>
+<li>Zusätzliche Konfigurationsoptionen:
+<ul>
+<li>Boost Dauer und Boost Ventilöffnung</li>
+<li>Wandthermostat Anzeigemodus</li>
+<li>Offset einstellen</li>
+<li>Cube Zeit setzen</li>
 </ul>
 </li>
 </ul>
