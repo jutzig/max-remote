@@ -28,13 +28,13 @@ Sobald der Cube wieder initialisiert ist, sollten Sie die Temperatur wieder mit 
 
 Sollten Sie häufig von dem Problem betroffen sein ist es empfehlenswert den Cube regelmäßig vom Strom zu trennen. Eine einfache Lösung dafür ist z.B. eine Steckdose mit Zeitschaltuhr.
 
-##Wird Alexa unterstützt?
+## Wird Alexa unterstützt?
 
 Alexa läuft serverseitig, daher lässt sich direkte Alexa Unterstützung nicht umsetzen, da der Server nicht mit Ihrem Cube kommunizieren kann.
 Sie können Ihren Cube allerdings über einen Umweg dennoch mit Alexa verwenden. MAX! Remote hat Tasker Unterstützung. Wenn Sie Tasker mit AutoVoice kombinieren, können Sie
 Ihre eigenen Sprachkommandos definieren die dann über Tasker ausgeführt werden.
 
-##Wie funktionieren Heizprofile?
+## Wie funktionieren Heizprofile?
 
 Heizprofile sind eine Möglichkeit um schnell zwischen verschiedenen Wochenprogrammen zu wechseln.
 Das ist beispielsweise nützlich, wenn Sie in wechselnden Schichten arbeiten, oder ein anderes Wochenprogramm verwenden wollen wenn Sie Urlaub haben.
@@ -44,23 +44,23 @@ Jetzt können Sie das aktuelle Programm unter einem Namen Ihrer wahl abspeichern
 
 _Tipp_: das derzeit aktive Heizprofil wird in Blau dargestellt
 
-##Ich habe ein Heizprofil aktiviert aber die Räume zeigen die falsche Zieltemperatur, was kann ich tun?
+## Ich habe ein Heizprofil aktiviert aber die Räume zeigen die falsche Zieltemperatur, was kann ich tun?
 
 Das MAX! System setzt nicht immer die richtie Zieltemperatur nachdem Sie das Wochenprogramm geändert haben. Die einfachste Lösung besteht darin in der App auf <code>Auto</code> zu drücken.
 Die App setzt dann die korrekte Zieltemperatur aus dem Wochenprogramm für alle Räume.
 
-##MAX! Remote kann die Rauminformationen nicht laden, was kann ich tun?
+## MAX! Remote kann die Rauminformationen nicht laden, was kann ich tun?
 
 Zunächst sollten Sie prüfen ob die richtige IP Adresse eingestellt ist. Sie können zurück zu den Verbindungseinstellungen in dem Sie oben Links im Menü auf Ihre Cube Verbindung tippen und
 ansschließend `Cubes verwalten...` auswählen.
 Zusätzlich sollten Sie prüfen ob sie WLAN aktiviert haben und ob der Cube korrekt mit dem Netzwerk verbunden ist.
 Falls alles korrekt ist, stellen Sie sicher, dass alle anderen Anwendung die sich mit dem Cube verbinden geschlossen sind, da der Cube immer nur eine Verbindung gleichzeitig erlaubt.
 
-##Wird es eine Version für Windows oder IOS geben?
+## Wird es eine Version für Windows oder IOS geben?
 
 Leider nein
 
-##Wofür steht der Duty Cycle?
+## Wofür steht der Duty Cycle?
 
 Per gesetzlicher Richtlinien darf der Cube nur eine Minute pro Stunde funken.
 Der Duty Cycle gibt an, wieviel dieser Sendeleistung verbraucht ist. Steigt der Duty Cycle auf 100% muss der Cube eine Stunde warten
