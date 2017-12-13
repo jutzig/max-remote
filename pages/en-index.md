@@ -11,7 +11,7 @@ description: Alternative App to control the MAX! Cube
 
 
 - [Frequently Asked Questions](pages/en-faq.html)
-- [German Version](index.html)
+- [German Version](../index.html)
 
 If you have further questions regarding the app or want to get in contact with user users, why not stop by in out Google+ [Community]("https://plus.google.com/communities/107406007042502511541")?
 
