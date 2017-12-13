@@ -4,10 +4,11 @@ title: MAX! Remote
 description: Anleitung
 ---
 
-# Anleitung für Einsteiger zur MAX! Remote-App
 
 * TOC
 {:toc}
+
+# Anleitung für Einsteiger zur MAX! Remote-App
 
 ## Einleitung
 
