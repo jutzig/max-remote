@@ -7,19 +7,19 @@ description: Häufig gestellte Fragen
 * TOC
 {:toc}
 
-##Kann ich MAX! Remote auch unterwegs nutzen?
+## Kann ich MAX! Remote auch unterwegs nutzen?
 
 Ja, können Sie. Allerdings wird eine direkte Netzwerkverbindung zum Cube benötigt. Um das von unterwegs zu ermöglichen benötigen Sie eine VPN Verbindung die Sie zunächst in Ihrem Router und Handy einrichten müssen.
 Auch Port Forwarding ist möglich, allerdings muss davon dringend abgeraten werden, da es fremden Personen vollen Zugriff auf Ihre Heizung ermöglicht.
 
 Wie VPN eingerichtet werden muss hängt von Ihrem Router Modell ab. Hier finden Sie ein Beispiel für [Fritz!Box]("https://avm.de/service/vpn/tipps-tricks/vpn-verbindung-zur-fritzbox-unter-android-einrichten/")
 
-##Warum wird die Raumtemperatur nicht angezeigt?
+## Warum wird die Raumtemperatur nicht angezeigt?
 
 Das Heizungsthermostat sendet die Temperatur nur wenn sich die Ventilstellung oder der Modus des Raums (z.B. AUTO, MANUAL,...) ändert.
 Falls sich beispielsweise die Ventilsteuerung des Thermostats über längere Zeit nicht verändert hat kennt der Cube die Temperatur nicht und die App kann den Wert nicht anzeigen.
 
-##Ich bekomme eine Fehler wenn ich versuche die Temperatur eines Raumes zu verändern. Was ist das Problem?
+## Ich bekomme eine Fehler wenn ich versuche die Temperatur eines Raumes zu verändern. Was ist das Problem?
 
 Leider hat der Cube ein Stabilitätsproblem. Falls Sie jedesmal wenn Sie die Temperatur ändern möchten die Meldung `Der MAX! Cube hat die neuen Einstellungen nicht rechtzeitig bestätigt` sehen,
 denn steckt Ihr Cube vermutlich fest. Die einfachste Möglichkeit das Problem zu beheben, besteht darin den Cube über die App neu zu starten, oder - falls das nicht funktioniert -
