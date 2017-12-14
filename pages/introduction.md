@@ -78,5 +78,5 @@ Schichtdienste, Urlaub, Party usw. sind damit prinzipiell eröffnet.
 
 ## Contributors
 
- * Initiale Version: Klaus Richter (vielen Dank)
+ * Initiale Version: *anonym* (vielen Dank)
  * Ergänzungen gerne an jutzig.dev@gmail.com
