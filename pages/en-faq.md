@@ -11,7 +11,7 @@ description: Frequently asked questions
 
 Yes, you can. But a direct connection to the Cube is required so you need to configure a VPN tunnel in your router and activate the tunnel in your phone. Port Forwarding is also possible but strongly discouraged because it will essentially allow everybody to access your MAX! Cube from a remote location.
 
-How to set up VPN depends on your router model. Here is an example for Fritz!Box [VPN]('https://avm.de/service/vpn/tipps-tricks/vpn-verbindung-zur-fritzbox-unter-android-einrichten/') 
+How to set up VPN depends on your router model. Here is an example for Fritz!Box [VPN]( https://avm.de/service/vpn/tipps-tricks/vpn-verbindung-zur-fritzbox-unter-android-einrichten/ ) 
 
 ## Why is the current temperature not shown?
 
