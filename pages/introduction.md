@@ -59,15 +59,22 @@ Wochenprogramm wirken.
 Bei der Bedienung aller Räume (Sie wissen bereits: im obersten Feld)
 kommt noch unter `Erweitert` | `Alle Räume` -> `AUS` in der nachfolgenden Maske die Mehrfachauswahl einzelner Räume hinzu.
 
+Falls links neben der Isttemperatur ein Sonnen- oder ein Mondindikator erscheint, dann entspricht die augenblicklich eingestellte Solltemperatur der Komfort- bzw. der Ecotemperatur.
+
 Ein Druck auf das Einstellzahnrad unterhalb der jeweiligen
 Solltemperatur lässt Sie ein *Wochenprogramm* für den jeweiligen
 Raum anlegen, ergänzen oder ändern.
 
 ## Zeitgesteuerten Ablauf programmieren (für Fortgeschrittene)
 
-Eine Urlaubsprogrammierung ist innerhalb der MAX!-Remote-App
-bis auf weiteres nicht möglich. Die aktuelle MAX!-Remote-App enthält
-jetzt ein so genanntes plugin für die Apps Tasker und Llama. Das
+
+Eine Urlaubs-/Abwesenheits-/Partyprogrammierung ist seit November 2018 innerhalb der MAX!-Remote-App 
+möglich; das war eine recht große Herausforderung. 
+Nach Ablauf der eingestellten Zeit zum gewünschten Datum wird wieder das geladene Profil 
+im Automatikmodus ausgeführt; das kann aus noch teilweise unbekannten Gründen bis zu 60 Minuten verzögert erfolgen. 
+
+
+Die aktuelle MAX!-Remote-App enthält jetzt ein so genanntes plugin für die Apps Tasker und Llama. Das
 ermöglicht - gesteuert durch den (gmail.com-)Terminkalender - auch
 die Datum- und/oder zeitabhängige Party-/Urlaubssteuerung aus nah
 und fern mit der MAX!-Remote-App. In Llama müsste man die

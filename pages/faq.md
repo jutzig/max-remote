@@ -12,7 +12,7 @@ description: Häufig gestellte Fragen
 Ja, können Sie. Allerdings wird eine direkte Netzwerkverbindung zum Cube benötigt. Um das von unterwegs zu ermöglichen benötigen Sie eine VPN Verbindung die Sie zunächst in Ihrem Router und Handy einrichten müssen.
 Auch Port Forwarding ist möglich, allerdings muss davon dringend abgeraten werden, da es fremden Personen vollen Zugriff auf Ihre Heizung ermöglicht.
 
-Wie VPN eingerichtet werden muss hängt von Ihrem Router Modell ab. Hier finden Sie ein Beispiel für [Fritz!Box]("https://avm.de/service/vpn/tipps-tricks/vpn-verbindung-zur-fritzbox-unter-android-einrichten/")
+Wie VPN eingerichtet werden muss hängt von Ihrem Router Modell ab. Hier finden Sie ein Beispiel für [Fritz!Box](https://avm.de/service/vpn/tipps-tricks/vpn-verbindung-zur-fritzbox-unter-android-einrichten/)
 
 ## Warum wird die Raumtemperatur nicht angezeigt?
 
