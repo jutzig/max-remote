@@ -14,6 +14,11 @@ Auch Port Forwarding ist möglich, allerdings muss davon dringend abgeraten werd
 
 Wie VPN eingerichtet werden muss hängt von Ihrem Router Modell ab. Hier finden Sie ein Beispiel für [Fritz!Box]( https://avm.de/service/vpn/tipps-tricks/vpn-verbindung-zur-fritzbox-unter-android-einrichten/ )
 
+Test1 https://avm.de/service/vpn/tipps-tricks/vpn-verbindung-zur-fritzbox-unter-android-einrichten/
+
+Test 2 <https://avm.de/service/vpn/tipps-tricks/vpn-verbindung-zur-fritzbox-unter-android-einrichten/>
+
+
 ## Warum wird die Raumtemperatur nicht angezeigt?
 
 Das Heizungsthermostat sendet die Temperatur nur wenn sich die Ventilstellung oder der Modus des Raums (z.B. AUTO, MANUAL,...) ändert.
