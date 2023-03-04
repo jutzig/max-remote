@@ -73,10 +73,9 @@ möglich; das war eine recht große Herausforderung.
 Nach Ablauf der eingestellten Zeit zum gewünschten Datum wird wieder das geladene Profil 
 im Automatikmodus ausgeführt; das kann aus noch teilweise unbekannten Gründen bis zu 60 Minuten verzögert erfolgen. 
 
-Die MAX!-Remote-App greift zusätzlich auf ein so genanntes Plugin innerhalb der Apps Tasker und Llama zu. Das ermöglicht - 
+Die MAX!-Remote-App greift zusätzlich auf ein so genanntes Plugin innerhalb der Apps Tasker und Macrodroid zu. Das ermöglicht - 
 indirekt gesteuert durch den (gmail.com-)Terminkalender - auch die Datum- und zeitabhängige Schicht-, Party- oder 
-Urlaubssteuerung aus nah und fern mit der MAX!-Remote-App. In Llama müsste man die
-Bedingung `Kalendereintrag` `[nicht den ganzen Tag]`für eine Terminnachricht nutzen. Viele Arten von immer wieder wechselnden 
+Urlaubssteuerung aus nah und fern mit der MAX!-Remote-App. In Macrodroid müsste man den Auslöser 'Kalenderereignis' (Untereinstellung 'ganztägige Ereignisse ignorieren') nutzen. Viele Arten von immer wieder wechselnden 
 Zeitsteuerungen für z.B. Schichtdienste sind damit prinzipiell eröffnet. Der eigene Terminkalender steuert also die Heizung zu 
 Hause! Ein bestimmtes Profil oder Eco/Komfort-Aktivierung würde mittels eines Stichwortes im Kalender von der MAX!Remote-App an 
 den Cube gesendet. 
