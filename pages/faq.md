@@ -7,6 +7,10 @@ description: Häufig gestellte Fragen
 * TOC
 {:toc}
 
+## Ist MAX! Remote von der eq-3 Portal Abschaltung betroffen?
+
+Nein, MAX! Remote kommuniziert immer nur direkt mit dem Cube und ist daher nicht von der Abschaltung betroffen. Sie können die App auch nach der Abschultung ganz normal weiterverwenden.
+
 ## Kann ich MAX! Remote auch unterwegs nutzen?
 
 Ja, können Sie. Allerdings wird eine direkte Netzwerkverbindung zum Cube benötigt. Um das von unterwegs zu ermöglichen benötigen Sie eine VPN Verbindung die Sie zunächst in Ihrem Router und Handy einrichten müssen.
@@ -56,6 +60,10 @@ Zunächst sollten Sie prüfen ob die richtige IP Adresse eingestellt ist. Sie k�
 ansschließend `Cubes verwalten...` auswählen.
 Zusätzlich sollten Sie prüfen ob sie WLAN aktiviert haben und ob der Cube korrekt mit dem Netzwerk verbunden ist.
 Falls alles korrekt ist, stellen Sie sicher, dass alle anderen Anwendung die sich mit dem Cube verbinden geschlossen sind, da der Cube immer nur eine Verbindung gleichzeitig erlaubt.
+
+## Plötzlich werden keine Räume mehr angezeigt, was kann ich tun?
+
+Es handelt sich leider um ein Problem mit der Cube Firmware. Es kann ab und zu vorkommen, dass der Cube alle gespeicherten Räume und Geräte 'vergisst'. In diesem Fall hilft es leider nur, die Geräte wieder in der MAX! Desktop hinzuzufügen und die Räume wieder neu anzulegen.
 
 ## Wird es eine Version für Windows oder IOS geben?
 
