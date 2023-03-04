@@ -7,6 +7,10 @@ description: Frequently asked questions
 * TOC
 {:toc}
 
+## Can I still user MAX! noteRemote once the eq3 portal has been shut down?
+
+MAX! Remote communicates directly with the Cube and does not need the vendor portal. Therefore you can continue using the app as usual, even once the portal has been shut down.
+
 ## Can I use MAX! Remote for adjusting my heating while I am not at home?
 
 Yes, you can. But a direct connection to the Cube is required so you need to configure a VPN tunnel in your router and activate the tunnel in your phone. Port Forwarding is also possible but strongly discouraged because it will essentially allow everybody to access your MAX! Cube from a remote location.
@@ -59,6 +63,10 @@ You can switch back to the respective screen by opening the menu und tapping on 
 Next select `Manage cubes...`.
 
 Additionally you should check that the wireless network is activated on your phone and that the cube is properly connected in the network. If everything is in order you also need to ensure that all other applications that access the Cube directly are terminated because the Cube allows only one connection at a time.
+
+## Suddenly the app does not show my rooms anymore, what can I do?
+
+Unfortunately this seems to be a bug in the firmware of the cube. It can happen occasionally, that it simply 'forgets' all rooms and devices. Sadly the only way to fix this, is to use to MAX! Desktop application you pair the devices again and re-create the previous rooms.
 
 ## Will there be a Windows or iOS version?
 
